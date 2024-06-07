@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    border: 1px solid black;
+    width: 1400w;
+    height: 260px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+   
+}
+li{
+    list-style: none;
+    background-color: darkslategray;
+    padding: 20px;
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: orangered;
+    
+    
+}
+li:hover{
+    background-color: gold;
+    padding: 20px;
+}
+p{
+    color: gold;
+    font-size: 50px;
+}
