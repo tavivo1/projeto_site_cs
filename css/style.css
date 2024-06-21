@@ -87,15 +87,16 @@ main{
     
     
     width: 80vw;
-    height: auto;;
+    height: auto;
     color: white;
     display: flex;
-    justify-content: center:
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     border: 1px solid white;
     padding: 15px;
     margin: 100px 200px;
+    margin-top: 200px;
     border-radius: 10px;
     background-color: rgb(0, 0, 0);
 
@@ -111,6 +112,12 @@ h1{
     align-items: center;
     display: flex;
 
+}
+img{
+    height: 100vw;
+}
+#logo{
+    height: 200px;
 }
 
 
